@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Tideline Online</title>
+<meta name="description" content="Privacy policy of the Android game Tideline Online: what information the game handles, why, who receives it, and how to have it deleted.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23ff8a30'/%3E%3Cpath d='M5 24 16 6l3 9 8 9-8-4-3 4-4-3z' fill='%230e1519'/%3E%3C/svg%3E">
+<style>
+/* Tideline Online: policy pages. No external fonts, scripts or trackers. */
+:root {
+  --page: #f5f6f3;
+  --card: #ffffff;
+  --ink: #172026;
+  --soft: #4b5a61;
+  --rule: #d9dedb;
+  --link: #a8470b;
+  --accent: #ff8a30;
+  --tide: #0f8f80;
+  --band: #0e1519;
+  --band-ink: #f3f5f1;
+  --band-soft: #9eabab;
+  --note: #fff4e8;
+  --note-rule: #f1c79c;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page: #0e1519;
+    --card: #162127;
+    --ink: #e6ebea;
+    --soft: #a5b2b3;
+    --rule: #2a3840;
+    --link: #ffa45c;
+    --tide: #3fd7c3;
+    --band: #0a1013;
+    --note: #2a2018;
+    --note-rule: #6b4a2a;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font: 17px/1.62 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+a { color: var(--link); text-underline-offset: 2px; }
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+
+.band { background: var(--band); color: var(--band-ink); }
+.band .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 28px; padding-top: 18px; padding-bottom: 18px; }
+.mark { display: flex; align-items: center; gap: 12px; color: var(--band-ink); text-decoration: none; font-weight: 800; letter-spacing: .06em; }
+.mark svg { width: 34px; height: 34px; flex: none; }
+.mark small { display: block; font-size: 11px; font-weight: 700; letter-spacing: .14em; color: var(--accent); }
+.band nav { display: flex; flex-wrap: wrap; gap: 6px 22px; margin-left: auto; }
+.band nav a { color: var(--band-soft); text-decoration: none; font-size: 15px; font-weight: 600; padding: 4px 0; border-bottom: 2px solid transparent; }
+.band nav a:hover { color: var(--band-ink); }
+.band nav a[aria-current="page"] { color: var(--band-ink); border-bottom-color: var(--accent); }
+@media (max-width: 480px) { .band nav { gap: 4px 15px; margin-left: 0; } .band nav a { font-size: 14px; } }
+
+.wrap { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+main.wrap { padding-top: 34px; padding-bottom: 56px; }
+h1 { font-size: clamp(30px, 6vw, 40px); line-height: 1.15; margin: 0 0 6px; letter-spacing: -.01em; }
+.dated { color: var(--soft); font-size: 15px; margin: 0 0 26px; }
+h2 { font-size: 23px; line-height: 1.25; margin: 44px 0 10px; padding-top: 6px; scroll-margin-top: 12px; }
+h3 { font-size: 18px; margin: 26px 0 6px; }
+p { margin: 0 0 14px; }
+ul, ol { margin: 0 0 14px; padding-left: 24px; }
+li { margin: 0 0 7px; }
+strong { font-weight: 700; }
+
+.glance { background: var(--card); border: 1px solid var(--rule); border-left: 5px solid var(--tide); border-radius: 10px; padding: 18px 20px 8px; margin: 0 0 30px; }
+.glance h2 { margin: 0 0 8px; padding: 0; font-size: 18px; }
+.glance ul { padding-left: 22px; }
+
+.contents { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding: 14px 0 6px; margin: 0 0 8px; }
+.contents p { font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--soft); margin: 0 0 6px; }
+.contents ol { columns: 2; column-gap: 28px; font-size: 16px; }
+@media (max-width: 560px) { .contents ol { columns: 1; } }
+
+.facts { display: grid; gap: 12px; margin: 14px 0 18px; padding: 0; list-style: none; }
+.facts li { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px 6px; margin: 0; }
+.facts b { display: block; margin-bottom: 4px; }
+.facts p { margin-bottom: 8px; }
+.facts .where { font-size: 14px; color: var(--soft); }
+
+.note { background: var(--note); border: 1px solid var(--note-rule); border-radius: 10px; padding: 14px 16px 2px; margin: 16px 0 18px; }
+
+.steps { counter-reset: step; list-style: none; padding: 0; }
+.steps > li { position: relative; padding-left: 46px; margin-bottom: 14px; }
+.steps > li::before { counter-increment: step; content: counter(step); position: absolute; left: 0; top: 0; width: 30px; height: 30px; border-radius: 50%; background: var(--accent); color: #1a1205; font-weight: 800; font-size: 15px; display: grid; place-items: center; }
+
+.button { display: inline-block; background: var(--accent); color: #1a1205; font-weight: 800; text-decoration: none; padding: 11px 18px; border-radius: 8px; margin: 4px 0 14px; }
+.button:hover { filter: brightness(1.06); }
+
+footer { border-top: 1px solid var(--rule); color: var(--soft); font-size: 15px; padding: 22px 0 40px; }
+footer p { margin: 0 0 6px; }
+</style>
+</head>
+<body>
+<header class="band">
+  <div class="wrap">
+    <a class="mark" href="index.html">
+      <svg viewBox="0 0 32 32" width="34" height="34" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#ff8a30"/><path d="M5 24 16 6l3 9 8 9-8-4-3 4-4-3z" fill="#0e1519"/></svg>
+      <span>TIDELINE<small>ONLINE</small></span>
+    </a>
+    <nav aria-label="Pages">
+      <a href="index.html" aria-current="page">Privacy policy</a>
+      <a href="delete-data.html">Delete your data</a>
+      <a href="terms.html">Terms of use</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>Privacy Policy</h1>
+  <p class="dated">Tideline Online for Android (package <code>studio.tideline.arena</code>) · Last updated 26 November 2026</p>
+
+  <section class="glance" aria-labelledby="glance">
+    <h2 id="glance">In short</h2>
+    <ul>
+      <li>The game has <strong>no accounts, no advertising, no purchases and no analytics or tracking tools</strong>. It never asks for your name, email address or phone number.</li>
+      <li>Your career, coins, weapons and settings are <strong>stored on your device only</strong>.</li>
+      <li>The game uses two Android permissions, both for the network. It cannot reach your location, camera, microphone, contacts, photos or files.</li>
+      <li>Online matches run through <strong>Unity’s online services</strong>, which receive a random guest identifier and your IP address so that players can be connected.</li>
+      <li>Other players in your match see the <strong>callsign</strong> you chose and what you do in the match.</li>
+    </ul>
+  </section>
+
+  <nav class="contents" aria-label="Contents">
+    <p>Contents</p>
+    <ol>
+      <li><a href="#who">Who is responsible</a></li>
+      <li><a href="#what">Information the game handles</a></li>
+      <li><a href="#not">What the game does not collect</a></li>
+      <li><a href="#why">How the information is used</a></li>
+      <li><a href="#share">Who receives it</a></li>
+      <li><a href="#keep">How long it is kept</a></li>
+      <li><a href="#secure">Security</a></li>
+      <li><a href="#rights">Your choices and rights</a></li>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#transfer">Where data is processed</a></li>
+      <li><a href="#changes">Changes to this policy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <h2 id="who">1. Who is responsible</h2>
+  <p>Tideline Online (“the game”) is made and published by an independent developer (“we”, “us”). We are responsible for the game and for this policy. You can reach us at <a href="mailto:ahmedwaliednoaah@gmail.com">ahmedwaliednoaah@gmail.com</a>.</p>
+  <p>This policy describes the game as it is published on Google Play. It covers every way of playing: practice against AI soldiers, matches on the same Wi-Fi network, and matches over the internet.</p>
+
+  <h2 id="what">2. Information the game handles</h2>
+
+  <h3>Kept on your device</h3>
+  <p>These are saved in the game’s private storage on your phone or tablet. They are not sent to us and we cannot see them.</p>
+  <ul class="facts">
+    <li><b>Callsign</b><p>The player name you type, or the one the game makes up for you on first start.</p></li>
+    <li><b>Career</b><p>Level, experience, rank, coins, the weapons and upgrades you own, missions, and match statistics.</p></li>
+    <li><b>Settings</b><p>Controls, touch layout, sound, display and match options, and the last address you typed to join a same Wi-Fi match.</p></li>
+  </ul>
+
+  <h3>When you play over the internet</h3>
+  <p>Quick Play and private rooms need a way to find other players and to pass data between phones. The game uses Unity Gaming Services, run by Unity Technologies, for this. Nothing is sent until you choose to play online.</p>
+  <ul class="facts">
+    <li><b>Guest identifier</b><p>The game signs your device in to Unity’s Authentication service as an anonymous guest. Unity creates a random identifier and a sign-in key, and the key is saved on your device. The identifier is not linked to your name, your email address or your callsign.</p><p class="where">Goes to: Unity</p></li>
+    <li><b>IP address and approximate region</b><p>Every internet connection carries your IP address. Unity uses it to connect you to a relay server near you, which shows roughly which country or region you are in. The game does not use GPS or any other precise location.</p><p class="where">Goes to: Unity</p></li>
+    <li><b>Room and connection records</b><p>The room you open or join, its game mode, when you connect and leave, how much data is relayed, and technical diagnostics of the service.</p><p class="where">Goes to: Unity</p></li>
+    <li><b>Match data</b><p>Your callsign, career level and chosen weapons, and what you do in the match: movement, shots, scores. One player’s device runs the match and the others connect to it through Unity’s Relay service. This data exists for the length of the match and is not stored on a server by us.</p><p class="where">Goes to: the other players in your match, passing through Unity’s relay</p></li>
+  </ul>
+
+  <h3>When you play on the same Wi-Fi network</h3>
+  <p>The devices connect to each other directly over your local network. The other devices in the match receive your callsign, your match data and your device’s local network address. Nothing is sent to the internet, to Unity or to us.</p>
+
+  <h3>When you play Practice</h3>
+  <p>Practice runs entirely on your device. No data leaves it.</p>
+
+  <h3>Technical information sent by the game engine</h3>
+  <p>The game is built with the Unity engine. When it connects to Unity’s services, and possibly when it starts, the engine may send Unity basic technical information about the device, such as its model, Android version and the version of the game. We do not receive this information.</p>
+
+  <h2 id="not">3. What the game does not collect</h2>
+  <ul>
+    <li>Your real name, email address, phone number or postal address.</li>
+    <li>Precise location, contacts, photos, files, camera or microphone. The game has no voice or text chat.</li>
+    <li>The Android advertising ID. The game shows no advertising and contains no advertising or analytics software.</li>
+    <li>Payment information. The game sells nothing; coins are earned by playing and cannot be bought.</li>
+  </ul>
+  <p>The only Android permissions the game uses are <code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code>.</p>
+
+  <h2 id="why">4. How the information is used</h2>
+  <ul>
+    <li><strong>To provide online play:</strong> signing your device in as a guest, listing and joining rooms, and carrying match data between players.</li>
+    <li><strong>To show the match to its players:</strong> your callsign, rank and score appear to the others in your match.</li>
+    <li><strong>To keep the service working and safe:</strong> Unity uses connection records and diagnostics to operate its services, measure their use and prevent abuse.</li>
+  </ul>
+  <p>The information is not used for advertising or profiling, and it is never sold.</p>
+  <p>Where the law asks for a legal basis, ours is the performance of the service you ask for when you choose to play online, and our legitimate interest in keeping that service working and secure.</p>
+
+  <h2 id="share">5. Who receives it</h2>
+  <ul>
+    <li><strong>Unity Technologies</strong> and the vendors it uses to run Unity Gaming Services (Authentication, Multiplayer sessions and Relay). Unity handles the guest identifier, IP address and connection records described above as our service provider. See the <a href="https://unity.com/legal/privacy-policy" rel="noopener">Unity Privacy Policy</a>.</li>
+    <li><strong>Other players in your match</strong>, who see your callsign, rank and actions in that match.</li>
+    <li><strong>Authorities</strong>, only if the law requires it.</li>
+  </ul>
+  <p>We do not share information with advertisers, data brokers or anyone else.</p>
+
+  <h2 id="keep">6. How long it is kept</h2>
+  <ul>
+    <li><strong>On your device:</strong> until you clear the game’s storage or uninstall the game.</li>
+    <li><strong>Guest identifier:</strong> kept by Unity until it is deleted. See <a href="delete-data.html">Delete your data</a>.</li>
+    <li><strong>Connection and room records:</strong> Unity states that it keeps these for up to about 30 days.</li>
+    <li><strong>Match data:</strong> not kept after the match ends.</li>
+  </ul>
+
+  <h2 id="secure">7. Security</h2>
+  <p>Connections to Unity’s services and matches played over the internet are encrypted in transit. Matches on the same Wi-Fi network are sent directly between the devices on that network and are <strong>not encrypted</strong>, so play them only on a network you trust.</p>
+  <p>Your career is stored on your device and is as safe as the device itself. No method of storage or transmission is completely secure.</p>
+
+  <h2 id="rights">8. Your choices and rights</h2>
+  <ul>
+    <li><strong>Play without sending anything:</strong> Practice never uses the network, and same Wi-Fi matches never use the internet.</li>
+    <li><strong>Change your callsign</strong> at any time in the game’s Profile screen.</li>
+    <li><strong>Delete your data:</strong> the steps are on the <a href="delete-data.html">Delete your data</a> page.</li>
+    <li><strong>Ask us:</strong> you can ask what information relates to you, and ask for it to be corrected or deleted, by writing to <a href="mailto:ahmedwaliednoaah@gmail.com">ahmedwaliednoaah@gmail.com</a>. We answer within 30 days.</li>
+  </ul>
+  <p>Depending on where you live, the law may give you further rights, such as restricting or objecting to the use of your data, receiving a copy of it, and complaining to your data protection authority. We will honour these rights wherever they apply. Because the game holds no name or email address for you, we may need to ask for details that let us find the right record.</p>
+
+  <h2 id="children">9. Children</h2>
+  <p>The game shows armed combat between soldiers and is not intended for children under 13. We do not knowingly collect personal information from children. If you believe a child has given us personal information, write to us and we will delete it.</p>
+
+  <h2 id="transfer">10. Where data is processed</h2>
+  <p>Unity runs its services on servers in several countries, including the United States, so information handled for online play may be processed outside the country you live in. Unity applies the safeguards described in its privacy policy to these transfers.</p>
+
+  <h2 id="changes">11. Changes to this policy</h2>
+  <p>If the game changes in a way that affects your information, for example by adding an optional online save, this page will be updated before that version is released, and the date at the top will change. The current version is always at this address.</p>
+
+  <h2 id="contact">12. Contact</h2>
+  <p>Questions and requests about privacy: <a href="mailto:ahmedwaliednoaah@gmail.com">ahmedwaliednoaah@gmail.com</a></p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Tideline Online · <a href="index.html">Privacy policy</a> · <a href="delete-data.html">Delete your data</a> · <a href="terms.html">Terms of use</a></p>
+    <p>Contact: <a href="mailto:ahmedwaliednoaah@gmail.com">ahmedwaliednoaah@gmail.com</a></p>
+  </div>
+</footer>
+</body>
+</html>
